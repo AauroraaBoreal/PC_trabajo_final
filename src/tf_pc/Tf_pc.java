@@ -5,8 +5,7 @@ import Objetos.ProgramadorHorarios;
 public class Tf_pc {
 
     public static void main(String[] args) {
-        //Principal formPrincipal = new Principal();
-        //formPrincipal.setVisible(true);
+
         
         Grafo grafo = new Grafo();
 
@@ -32,6 +31,9 @@ public class Tf_pc {
 
         // Imprimir el horario generado
         ProgramadorHorarios.imprimirHorario(grafo);
+        
+        Principal formPrincipal = new Principal();
+        formPrincipal.setVisible(true);
         
     }
     
